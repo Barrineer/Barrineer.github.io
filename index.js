@@ -1,16 +1,17 @@
 window.onload = () => {
 
-    //index js
-
+    /**
+     * Just a test function
+     */
     function changeText(){
         document.getElementById("b1").innerText = "Bye";
     }
 
-    //404 js
-    var url_404 = document.getElementById("404_url");
+    //current_url: Displays the current page's full url
+    var current_url = document.getElementById("current_url");
 
-    if(url_404){
-        url_404.innerHTML = window.location.href;
+    if(current_url){
+        current_url.innerHTML = window.location.href;
     }
-    
+
 }
