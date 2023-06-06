@@ -4,9 +4,14 @@
         <link rel="stylesheet" href="index.css">
         <link rel="icon" type="image/png" href="src\images\favicon.png" sizes="48x48">
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="mustache.js" ></script>
+        <script src="index.js"></script>
     </head>
     <body>
-        
+        <div id="target">Loading...</div>
+        <script id="template" type="x-tmpl-mustache">
+        Hello {{ name }}!
+        </script>
+        <script src="https://unpkg.com/mustache@latest"></script>
     </body>
 </html>
