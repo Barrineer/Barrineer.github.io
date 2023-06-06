@@ -761,4 +761,5 @@ mustache.Scanner = Scanner;
 mustache.Context = Context;
 mustache.Writer = Writer;
 
-export default mustache;
+// Commented out this line due to not using Node.js
+//export default mustache;
