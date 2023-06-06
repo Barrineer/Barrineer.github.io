@@ -1,12 +1,16 @@
-//index js
+window.onload = () => {
 
-function changeText(){
-    document.getElementById("b1").innerText = "Bye";
-}
+    //index js
 
-//404 js
-var url_404 = document.getElementById("404_url");
+    function changeText(){
+        document.getElementById("b1").innerText = "Bye";
+    }
 
-if(url_404){
-    url_404.innerHTML = window.location.href;
+    //404 js
+    var url_404 = document.getElementById("404_url");
+
+    if(url_404){
+        url_404.innerHTML = window.location.href;
+    }
+    
 }
