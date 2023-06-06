@@ -7,8 +7,10 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="mustache.js" ></script>
     </head>
-    <body>
-        <h1>Hello GitHub Pages!</h1>
-        <button id="b1" onclick="changeText()">Hi</button>
+    <body onload="renderHello()">
+        <div id="target">Loading...</div>
+        <script id="template" type="x-tmpl-mustache">
+        Hello {{ name }}!
+        </script>
     </body>
 </html>
