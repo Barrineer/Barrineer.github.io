@@ -5,12 +5,12 @@
 }
 
 #main_header > *{
-    display: inline-block;
     position: relative;
+    float: left;
 }
 
-#main_header > #mh_title > h1{
-    top: calc(50% - 2em)
+#main_header > #mh_title {
+    top: calc(50% - 2em);
 }
 
 /* Common Display sizes:
