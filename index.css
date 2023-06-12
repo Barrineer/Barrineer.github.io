@@ -1,3 +1,9 @@
+/*Overriding base elements*/
+h1{
+    font-size: 2em;
+    /*Work on overriding and fonts for proper centering*/
+}
+
 /* Header */
 #main_header{
     border: solid 2px black;
@@ -9,8 +15,14 @@
     float: left;
 }
 
-#main_header > #mh_title {
+#mh_title {
     top: calc(50% - 2em);
+    /*Work on font family (weirdly annoying???)*/
+}
+
+#mh_nav {
+    top: calc(50% - 17px)
+    /*Work on font family (weirdly annoying???)*/
 }
 
 /* Common Display sizes:
