@@ -15,6 +15,7 @@ window.onload = () => {
 
     //current_url: Displays the current page's full url
     var current_url = document.getElementById("current_url");
+    var render_header = document.getElementById("main_header");
     var render = document.getElementById('template');
 
     if(current_url){
@@ -23,6 +24,14 @@ window.onload = () => {
 
     if(render){
         renderHello();
+    }
+
+    if(render_header){
+        fetch("html/header.html").then((response) => response.text()).then((template) => {
+            const rendered_header = Mustache.render(template);
+            render_header.outerHTML = rendered_header;
+        })
+        
     }
 
 
