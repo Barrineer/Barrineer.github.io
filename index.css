@@ -4,6 +4,10 @@
     height: 150px;
 }
 
+#main_header > *{
+    display: inline-block;
+}
+
 /* Common Display sizes:
 Desktop: 1280x720 to 1920x1080
 Tablet: 601x962 to 1280x800
