@@ -27,7 +27,7 @@ window.onload = () => {
     }
 
     if(render_header){
-        fetch("html/header.html").then((response) => response.text()).then((template) => {
+        fetch("src/html/header.html").then((response) => response.text()).then((template) => {
             const rendered_header = Mustache.render(template);
             render_header.outerHTML = rendered_header;
         })
