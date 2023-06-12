@@ -1,4 +1,23 @@
 /* Header */
 #main_header{
     border: solid 2px black;
+    height: 150px;
+}
+
+/* Common Display sizes:
+Desktop: 1280x720 to 1920x1080
+Tablet: 601x962 to 1280x800
+Mobile: 360x640 to 414x896
+*/
+
+/*Other properties assume desktop*/
+
+/*Tablet*/
+@media screen and (max-width:1280px) {
+    
+}
+
+/*Mobile*/
+@media screen and (max-width:500px) {
+    
 }
