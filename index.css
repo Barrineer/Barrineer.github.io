@@ -1,3 +1,6 @@
+/*Desktop*/
+/*#region*/
+
 /*Overriding base elements*/
 h1{
     font-size: 2em;
@@ -5,6 +8,7 @@ h1{
 }
 
 /* Header */
+/*#region*/
 #main_header{
     border: solid 2px black;
     height: 150px;
@@ -24,6 +28,26 @@ h1{
     top: calc(50% - 17px)
     /*Work on font family (weirdly annoying???)*/
 }
+/*#endregion*/
+/* End Header */
+
+/* Footer */
+/*#region*/
+#main_footer {
+    height: 200px;
+    padding: 20px;
+}
+
+.f_img {
+    float: left;
+    height: 48px;
+    margin-right: 10px;
+}
+/*#endregion*/
+/* End Footer */
+
+/*#endregion*/
+/*End Desktop*/
 
 /* Common Display sizes:
 Desktop: 1280x720 to 1920x1080
@@ -31,7 +55,7 @@ Tablet: 601x962 to 1280x800
 Mobile: 360x640 to 414x896
 */
 
-/*Other properties assume desktop*/
+/*Above properties assume desktop*/
 
 /*Tablet*/
 @media screen and (max-width:1280px) {
