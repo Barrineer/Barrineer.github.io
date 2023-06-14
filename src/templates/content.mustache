@@ -1,0 +1,17 @@
+<main>
+{{#header}}
+    <header>{{title}}</header>
+    {{#description}}
+        <small>{{.}}<small>
+    {{/description}}
+    {{#section}}
+        <section>{{subtitle}}</section>
+            {{#project}}
+            <div>
+                <h3>{{name}}</h3>
+                <p>{{description}}</p>
+            </div>
+            {{/project}}
+    {{/section}}
+{{/header}}
+</main>
