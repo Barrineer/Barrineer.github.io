@@ -95,7 +95,7 @@ window.onload = () => {
     }
 
     if(render_content){
-        fetch("src/html/content.mustache").then((response) => response.text()).then((template) => {
+        fetch("src/templates/content.mustache").then((response) => response.text()).then((template) => {
             const rendered_content = Mustache.render(template,view_main_content);
             render_content.outerHTML = rendered_content;
         });
@@ -105,7 +105,7 @@ window.onload = () => {
     var render_nav = document.getElementById('main_nav');
 
     if(render_nav){
-        fetch("src/html/nav.mustache").then((response) => response.text()).then((template) => {
+        fetch("src/templates/nav.mustache").then((response) => response.text()).then((template) => {
             const rendered_nav = Mustache.render(template);
             render_nav.outerHTML = rendered_nav;
         });
