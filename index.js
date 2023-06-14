@@ -1,4 +1,5 @@
 
+//window.on
 window.onload = () => {
 
     //current_url: Displays the current page's full url
@@ -12,7 +13,7 @@ window.onload = () => {
     const view_main_content = {
         "header": [
             {
-                "title" : "Project",
+                "title" : "Projects",
                 "section" : [
                     {
                         "subtitle":"Academic",
@@ -34,12 +35,6 @@ window.onload = () => {
                     {
                         "subtitle":"Personal",
                         "project":[
-                            {
-                                "name":"WIP",
-                                "description":"Basic JavaScript game using the html canvas.",
-                                "image":"",
-                                "link":"",
-                            },
                             {
                                 "name":"WIP",
                                 "description":"Basic JavaScript game using the html canvas.",
