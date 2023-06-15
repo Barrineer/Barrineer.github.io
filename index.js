@@ -14,6 +14,11 @@ window.onload = () => {
         "header": [
             {
                 "title" : "Projects",
+                "attributes" : [
+                    {
+                        "id":"h_project",
+                    }
+                ],
                 "section" : [
                     {
                         "subtitle":"Academic",

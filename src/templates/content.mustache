@@ -1,17 +1,17 @@
 <main>
 {{#header}}
-    <header>
-        <h2>{{title}}</h2>
+    <header {{#attributes}} id="{{id}}" {{/attributes}} class="c_container">
+        <h2 class="c_title">{{title}}</h2>
         {{#description}}
-            <small>{{.}}</small>
+            <small class="c_description">{{.}}</small>
         {{/description}}
         {{#section}}
-            <section>
-                <h3>{{subtitle}}</h3>
+            <section class="s_container">
+                <h3 class="s_title">{{subtitle}}</h3>
                 {{#project}}
-                <div>
-                    <h4>{{name}}</h4>
-                    <p>{{description}}</p>
+                <div class="p_container">
+                    <h4 class="p_title">{{name}}</h4>
+                    <p class="p_description">{{description}}</p>
                 </div>
                 {{/project}}
             </section>
