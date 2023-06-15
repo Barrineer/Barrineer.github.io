@@ -6,10 +6,10 @@
             <small class="c_description">{{.}}</small>
         {{/description}}
         {{#section}}
-            <section class="s_container">
+            <section {{#attributes}} id="{{id}}" {{/attributes}} class="s_container">
                 <h3 class="s_title">{{subtitle}}</h3>
                 {{#project}}
-                <div class="p_container">
+                <div {{#attributes}} id="{{id}}" {{/attributes}} class="p_container">
                     <h4 class="p_title">{{name}}</h4>
                     <p class="p_description">{{description}}</p>
                 </div>
