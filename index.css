@@ -49,22 +49,32 @@ h4{
     border: solid 2px black;
     height: 150px;
     margin: 10px;
+    display: inline-block;
 }
 
-#main_header > *{
-    position: relative;
-    float: left;
+#main_header_container {
+    text-align: center;
+}
+
+#main_header > div{
+    display: inline-block
+}
+
+#mh_title {
+    vertical-align: top;
+}
+
+#mh_title > h1 {
+    margin: 0px;
+    padding: calc((150px - 37.5)/2) 20px;
 }
 
 #mh_title {
     top: calc(50% - 2em);
     /*Work on font family (weirdly annoying???)*/
+    /*New theme: medieval workshop (add anvils, swords, hammers, etc. if applicable*/
 }
 
-#mh_nav {
-    top: calc(50% - 17px)
-    /*Work on font family (weirdly annoying???)*/
-}
 /*#endregion*/
 /**************************************************End Header**************************************************/
 
@@ -77,10 +87,10 @@ h4{
 
 #main_footer > * {
     padding-left: 20px;
+    text-align: center;
 }
 
 .f_img {
-    float: left;
     height: 48px;
     margin-right: 10px;
 }
