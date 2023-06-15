@@ -18,6 +18,7 @@ Palette Colors:
 body {
     background-color: #604730;
     color: white;
+    margin: 0px;
 }
 
 h1{
@@ -32,17 +33,22 @@ h3{
     color: #b9a286;
 }
 
+h4{
+
+}
+
 /*Desktop*/
 /*#region*/
 
 /*Overriding base elements*/
 
 
-/* Header */
+/**************************************************Header**************************************************/
 /*#region*/
 #main_header{
     border: solid 2px black;
     height: 150px;
+    margin: 10px;
 }
 
 #main_header > *{
@@ -60,13 +66,17 @@ h3{
     /*Work on font family (weirdly annoying???)*/
 }
 /*#endregion*/
-/* End Header */
+/**************************************************End Header**************************************************/
 
-/* Footer */
+/**************************************************Footer**************************************************/
 /*#region*/
 #main_footer {
-    height: 200px;
-    padding: 20px;
+    background-color: #896945;
+    height: 125px;
+}
+
+#main_footer > * {
+    padding-left: 20px;
 }
 
 .f_img {
@@ -75,7 +85,17 @@ h3{
     margin-right: 10px;
 }
 /*#endregion*/
-/* End Footer */
+/**************************************************End Footer**************************************************/
+
+/**************************************************Main Content**************************************************/
+/*#region*/
+
+#main_content{
+    margin:10px;
+}
+
+/*#endregion*/
+/**************************************************End Main Content**************************************************/
 
 /*#endregion*/
 /*End Desktop*/
