@@ -20,9 +20,16 @@ body {
     color: white;
 }
 
-h1,h2,h3,h4,h5,h6{
-    color: #b9a286;
+h1{
+    color: #131c0d;
+}
 
+h2{
+    color: #b5864c;
+}
+
+h3{
+    color: #b9a286;
 }
 
 /*Desktop*/
