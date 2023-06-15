@@ -1,11 +1,35 @@
+/*Website theme based on color palette found on https://colorpalette.org/historic-site-medieval-architecture-place-of-worship-color-palette/ */
+/*
+https://i2.wp.com/colorpalette.org/wp-content/palette/historic_site_medieval_architecture_place_of_worship_colorpalette_3g4lv.jpg?q=100
+Palette Colors:
+    - #4b6b9e (Light Blueish)       [Sky]
+    - #896945 (Light Brownish)      [Main building]
+    - #9db8da (Pale Blueish)        [Sky]
+    - #bec8d8 (Steel like)          [Cobblestone or Steeple]
+    - #928c74 (Beigeish)            [Roof]
+    - #636343 (Like a green brown)  [Grass or Trees]
+    - #604730 (Chocolate like)      [Main building]
+    - #b5864c (Yellowy Brown)       [Main building]
+    - #131c0d (Blackish)            [Shadows]
+    - #5a7cb1 (Lighter Blueish)     [Sky]
+    - #b9a286 (Lighter Brownish)    [Roof]
+    - #40492b (Forest Greenish)     [Trees]
+*/
+body {
+    background-color: #604730;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #b9a286;
+
+}
+
 /*Desktop*/
 /*#region*/
 
 /*Overriding base elements*/
-h1{
-    font-size: 2em;
-    /*Work on overriding and fonts for proper centering*/
-}
+
 
 /* Header */
 /*#region*/
