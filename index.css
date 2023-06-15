@@ -66,7 +66,7 @@ h4{
 
 #mh_title > h1 {
     margin: 0px;
-    padding: calc((150px - 37.5)/2) 20px;
+    padding: calc((150px - 37.5px)/2) 20px;
 }
 
 #mh_title {
