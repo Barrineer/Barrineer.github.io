@@ -22,6 +22,11 @@ window.onload = () => {
                 "section" : [
                     {
                         "subtitle":"Academic",
+                        "attributes" : [
+                            {
+                                "id":"s_academic",
+                            }
+                        ],
                         "project":[
                             {
                                 "name":"Bros R Us",
@@ -39,6 +44,11 @@ window.onload = () => {
                     },
                     {
                         "subtitle":"Personal",
+                        "attributes" : [
+                            {
+                                "id":"s_personal",
+                            }
+                        ],
                         "project":[
                             {
                                 "name":"WIP",
@@ -50,6 +60,11 @@ window.onload = () => {
                     },
                     {
                         "subtitle":"Job Application",
+                        "attributes" : [
+                            {
+                                "id":"s_jobapp",
+                            }
+                        ],
                         "project":[
                             {
                                 "name":"Node.js API",
@@ -64,11 +79,21 @@ window.onload = () => {
             },
             {
                 "title" : "About Me",
+                "attributes" : [
+                    {
+                        "id":"h_about",
+                    }
+                ],
                 "section" : false,
                 "description":"Computer Scientist with a passion for all things computer sciency. Graduated from Florida Atlantic University with a Bachelor in Computer Science.",
             },
             {
                 "title" : "Experience",
+                "attributes" : [
+                    {
+                        "id":"h_experience",
+                    }
+                ],
                 "section" : false,
                 "description":"Experienced as a Full-Stack Developer using the languages HTML, CSS, JavaScript, PHP, and MySQL and frameworks such as WordPress, CodeIgniter, Drupal and Angular.",
             },
