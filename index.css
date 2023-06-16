@@ -126,6 +126,13 @@ h3{
     vertical-align: middle;
 }
 
+.p_title{
+    position: relative;
+    bottom: 18px;
+    margin: 24px 0px 0px 0px;
+    height: 18px;
+}
+
 /*#endregion*/
 /**************************End Project Cards**************************/
 
