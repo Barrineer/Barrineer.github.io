@@ -98,9 +98,13 @@ h4{
 
 .f_img,#f_credit{
     height: 48px;
-    margin-right: 10px;
     display: inline-block;
 }
+
+.f_img{
+    margin-right: 10px;
+}
+
 /*#endregion*/
 /**************************************************End Footer**************************************************/
 
