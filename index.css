@@ -97,11 +97,11 @@ h4{
 }
 
 .f_img,#f_credit{
-    height: 48px;
     display: inline-block;
 }
 
 .f_img{
+    height: 48px;
     margin-right: 10px;
 }
 
