@@ -70,7 +70,7 @@ h4{
 }
 
 #mh_title {
-    top: calc(50% - 2em);
+    
     /*Work on font family (weirdly annoying???)*/
     /*New theme: medieval workshop (add anvils, swords, hammers, etc. if applicable*/
 }
@@ -81,18 +81,25 @@ h4{
 /**************************************************Footer**************************************************/
 /*#region*/
 #main_footer {
-    background-color: #896945;
-    height: 125px;
-}
-
-#main_footer > * {
-    padding-left: 20px;
+    height: calc((48px * 2) + 2px + 1em);/* 2px and 1em being the total height for the <hr> and its total top and bottom margin*/
     text-align: center;
 }
 
-.f_img {
+#f_links{
+    height: 48px;
+    padding: 24px 0px; /*48px being the rest of the space available in the footer */
+}
+
+#f_credit{
+    margin: 0px;
+    vertical-align: top;
+    padding: calc((48px - 18px)/2); /*48px being container height and 18px being <p> generic font size height*/
+}
+
+.f_img,#f_credit{
     height: 48px;
     margin-right: 10px;
+    display: inline-block;
 }
 /*#endregion*/
 /**************************************************End Footer**************************************************/
@@ -101,7 +108,7 @@ h4{
 /*#region*/
 
 #main_content{
-    margin:10px;
+    margin:10px 10px calc(24px + 0.5em) 10px ;
 }
 
 /*#endregion*/
