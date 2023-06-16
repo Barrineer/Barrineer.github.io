@@ -20,6 +20,10 @@ Palette Colors:
 TODO: LOOKUP animation for css SICK
 https://www.w3schools.com/cssref/css_animatable.php
 */
+
+/*Can set variables using :root and --variable_name
+https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+*/
 body {
     background-color: #604730;
     color: white;
