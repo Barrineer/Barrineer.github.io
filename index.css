@@ -24,22 +24,47 @@ https://www.w3schools.com/cssref/css_animatable.php
 /*Can set variables using :root and --variable_name
 https://developer.mozilla.org/en-US/docs/Web/CSS/--*
 */
+
+:root {
+    /*Colors*/
+    --color-light-blueish: #4b6b9e;
+    --color-light-brownish: #896945;
+    --color-pale-blue: #9db8da;
+    --color-steel-like: #bec8d8;
+    --color-beige-like: #928c74;
+    --color-green-brown: #636343;
+    --color-choco-like: #604730;
+    --color-yellow-brown: #b5864c;
+    --color-blackish: #131c0d;
+    --color-lighter-blue: #5a7cb1;
+    --color-lighter-brown: #b9a286;
+    --color-forest-greenish: #40492b;
+
+    /*Container sizes*/
+    --size-height-footer: 48px;
+    --size-height-header: 150px;
+    --size-padding-header: 20px;
+    --size-padding-footer: 10px;
+    --size-margin-header: 10px;
+    --size-margin-footer: 10px;
+}
+
 body {
-    background-color: #604730;
+    background-color: var(--color-choco-like);
     color: white;
     margin: 0px;
 }
 
 h1{
-    color: #131c0d;
+    color: var(--color-blackish);
 }
 
 h2{
-    color: #b5864c;
+    color: var(--color-yellow-brown);
 }
 
 h3{
-    color: #b9a286;
+    color: var(--color-lighter-brown);
 }
 
 /*Desktop*/
@@ -52,8 +77,8 @@ h3{
 /*#region*/
 #main_header{
     border: solid 2px black;
-    height: 150px;
-    margin: 10px;
+    height: var(--size-height-header);
+    margin: var(--size-margin-header);
     display: inline-block;
 }
 
@@ -71,7 +96,7 @@ h3{
 
 #mh_title > h1 {
     margin: 0px;
-    padding: calc((150px - 37.5px)/2) 20px;
+    padding: calc((var(--size-height-header) - 37.5px)/2) var(--size-padding-header);
 }
 
 #mh_title {
@@ -86,19 +111,20 @@ h3{
 /**************************************************Footer**************************************************/
 /*#region*/
 #main_footer {
-    height: calc((48px * 2) + 2px + 1em);/* 2px and 1em being the total height for the <hr> and its total top and bottom margin*/
+    height: calc((var(--size-height-footer) * 2) + 2px + 1em);/* 2px and 1em being the total height for the <hr> and its total top and bottom margin*/
     text-align: center;
 }
 
 #f_links{
-    height: 48px;
-    padding: 24px 0px; /*48px being the rest of the space available in the footer */
+    height: var(--size-height-footer);
+    padding: calc(var(--size-height-footer) / 2) 0px;
 }
 
 #f_credit{
     margin: 0px;
     vertical-align: top;
-    padding: calc((48px - 18px)/2); /*48px being container height and 18px being <p> generic font size height*/
+    padding: calc((var(--size-height-footer) - 18px)/2) 0px; /*48px being container height and 18px being <p> generic font size height*/
+    padding-right: var(--size-padding-footer);
 }
 
 .f_img,#f_credit{
@@ -106,8 +132,8 @@ h3{
 }
 
 .f_img{
-    height: 48px;
-    margin-right: 10px;
+    height: var(--size-height-footer);
+    margin-right: var(--size-margin-footer);
 }
 
 /*#endregion*/
@@ -117,7 +143,7 @@ h3{
 /*#region*/
 
 #main_content{
-    margin:10px 10px calc(24px + 0.5em) 10px ;
+    margin:10px 10px calc(24px + 0.5em) 10px;
 }
 
 
@@ -126,7 +152,7 @@ h3{
 
 .p_container{
     border: solid 1px;
-    background-color: #b5864c;
+    background-color: var(--color-yellow-brown);
     border-radius: 30px;
     width: 200px;
     height: 200px;
