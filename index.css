@@ -15,6 +15,11 @@ Palette Colors:
     - #b9a286 (Lighter Brownish)    [Roof]
     - #40492b (Forest Greenish)     [Trees]
 */
+
+/*
+TODO: LOOKUP animation for css SICK
+https://www.w3schools.com/cssref/css_animatable.php
+*/
 body {
     background-color: #604730;
     color: white;
