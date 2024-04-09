@@ -23,4 +23,6 @@ window.onload = () => {
 
     }
 
+    postData(data);
+
 }
