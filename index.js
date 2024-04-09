@@ -9,8 +9,10 @@ window.onload = () => {
         try{
             const resp = await fetch(url, {
                 method:"POST",
+                redirect:"follow",
                 headers:{
-                    "Content-Type": "application/json",
+                    "Content-Type": "text/plain;charset=utf-8",
+                    "Access-Control-Allow-Origin": "*",
                 },
                 body: JSON.stringify(data),
             });
