@@ -13,7 +13,7 @@ window.onload = () => {
                 body: JSON.stringify(data),
             });
 
-            const result = await resp.json;
+            const result = await resp.text();
             console.log("Success!",result)
         } catch(e){
             console.log(`Error posting data to ${post_url}`,e)
