@@ -49,6 +49,6 @@ window.onload = () => {
         
     }
     
-    postData(data);
+    //postData(data);
     //getData();
 }
