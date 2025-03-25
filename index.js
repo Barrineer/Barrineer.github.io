@@ -51,7 +51,7 @@ window.onload = () => {
 
     async function callDiscord(){
         try{
-            const res = await fetch("https://discord.com/api",{
+            const res = await fetch("https://discord.com/api/oauth2/token",{
                 method:"POST",
             });
 
