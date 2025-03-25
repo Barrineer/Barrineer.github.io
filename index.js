@@ -55,7 +55,7 @@ window.onload = () => {
                 method:"POST",
             });
 
-            const result = res.json;
+            const result = await res.text();
             console.log("Success",result)
         } catch(e){
             console.log("Error getting data",e);
