@@ -48,7 +48,21 @@ window.onload = () => {
         }
         
     }
+
+    async function callDiscord(){
+        try{
+            const res = await fetch("https://discord.com/api",{
+                method:"POST",
+            });
+
+            const result = res.json;
+            console.log("Success",result)
+        } catch(e){
+            console.log("Error getting data",e);
+        }
+    }
     
     //postData(data);
     //getData();
+    callDiscord();
 }
